@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    font-size: 3.5em;
+}
+
+h1,h2{
+    font-family: Sans-serif;
+}
+
+body{
+    background-color: lightblue;
+}
+
+#paragraph2{
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: green;
+    padding: 1.5em;
+    margin-right: 30em;
+    line-height: 2em;
+}
+
+.blue{
+    background-color: darkblue;
+    color:white;
+    padding: 1.2em;
+}
+
+ol li{
+    list-style-type: decimal-leading-zero;
+}
+
+section{
+    a{
+        color:red;
+    }
+}
+
+table, th, td{
+    border: 1px solid black;
+    background-color: white;
+    border-collapse: collapse;
+
+    th{
+    background-color: lightgray;
+    }
+}
