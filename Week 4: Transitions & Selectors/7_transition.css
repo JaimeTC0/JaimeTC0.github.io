@@ -1,0 +1,113 @@
+#menuItems{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:200px;
+    height:100%;
+}
+
+#menuItems button:hover{
+    background-color: yellow;
+}
+
+#jumpMenu{
+    max-height: 0;
+    transition: max-height 1s linear;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+}
+
+#recentArticles:hover + #jumpMenu, #jumpMenu:hover{
+    max-height: 330px;
+    background-color: yellow;
+}
+
+#jumpMenu li{
+    list-style: none;
+    text-align: center;
+}
+
+#jumpMenu a{
+    display: block;
+    color:blue;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+#jumpMenu a:hover{
+    background-color: blue;
+    color:black;
+}
+
+nav button{
+    font-size: 2em;
+    background-color: blue;
+    color: white;
+}
+
+body{
+    margin:0;
+}
+
+header p{
+    position:sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin:0;
+    padding:0;
+    width:100%;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    margin-left: 200px;
+}
+
+#container{
+    display:flex;
+    flex-wrap: wrap;
+    padding:10px;
+    p, h2{
+        width: 300px;
+        margin: 20px;
+    }
+}
+
+#container article{
+    color: gray;
+    transition: 2s;
+}
+
+article a::after{
+    content:url(arrow.png);
+}
+
+#container article:hover{
+    color:black;
+    font-size: 1.2em;
+}
+
+h2 + p::first-letter{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+#thanks{
+    position:fixed;
+    right: 5px;
+    bottom: 0;
+    font-size: 1.5em;
+    background-color: cyan;
+}
