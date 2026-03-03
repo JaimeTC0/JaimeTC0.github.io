@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Poke Team Maker</title>
+        <link rel="stylesheet" href="poke.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="pokejava.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <p id="Header">Name or ID</p>
+            <div>
+                <div id="PokemonSearch">
+                    <input id="inputText" name="inputText" type="text">
+                    <button id="findButton" onclick="findPokemon()" type="button">Find</button>
+                </div>
+            </div>
+            <img id="PokemonImage" src="">
+            <audio controls id="PokemonAudio">
+                <source id= "PokemonCry" src="">
+                Your browser does not support the audio element.
+            </audio>
+            <div>
+                <div id="moveList">
+                    <select name="move1" id="move1" required></select>
+                    <select name="move2" id="move2" required></select>
+                    <select name="move3" id="move3" required></select>
+                    <select name="move4" id="move4" required></select>
+                </div>
+                <div>
+                    <button id="addToTeam" onclick="addToTeam()" type="button">Add to Team</button>
+                </div>
+            </div>
+            <div id="teamDisplay"></div>
+        </div>
+    </body>

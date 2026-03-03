@@ -1,0 +1,52 @@
+body{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Header{
+    font-size: 2em;
+}
+
+.container { 
+    width: 600px; 
+    margin: 50px auto; 
+    padding: 40px 20px; 
+    background-color: white; 
+    border: 6px solid gold;  
+    border-radius: 40px; 
+    text-align: center; 
+} 
+
+#findButton{
+    background-color: forestgreen;
+}
+
+#PokemonImage{
+    margin: 20px;
+    height: 50%;
+    width: 50%;
+}
+
+#moveList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: 10px;
+}
+
+#addToTeam{
+    width: 20%;
+    background-color: lightsalmon;
+}
+
+select{
+    width: 200px;
+}
+
+#teamDisplay{
+    background-color: khaki;
+}
